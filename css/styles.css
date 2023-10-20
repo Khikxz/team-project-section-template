@@ -212,7 +212,8 @@ p {
     }
 }
 
-.catalogue-button:hover {
+.catalogue-button:hover, 
+.modal-button:hover{
     border: 1px solid #FFF;
 }
 
