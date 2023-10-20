@@ -77,6 +77,15 @@ p {
     gap: 40px;
 }
 
+.catalogue-heading {
+    color: var(--dark-green, #1E2827);
+    font-family: Epilogue;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -0.8px;
+}
+
 .catalogue-list {
     display: flex;
     flex-direction: column;
