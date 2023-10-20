@@ -20,16 +20,6 @@ li {
     list-style: none;
 }
 
-h2 {
-    color: var(--dark-green, #1E2827);
-    font-family: Epilogue;
-    font-size: 32px;
-    font-weight: 600;
-    line-height: 40px; 
-    letter-spacing: -0.64px;
-    margin: 0;
-}
-
 h3{
     overflow: hidden;
     color: var(--black, #141414);
@@ -101,6 +91,14 @@ p {
     @media (min-width: 1158px){
         column-gap: 24px;
         row-gap: 64px;
+    }
+}
+
+.extra-set {
+    visibility: hidden;
+
+    @media (min-width: :1156px) {
+        visibility: visible;
     }
 }
 
